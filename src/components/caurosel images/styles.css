@@ -1,0 +1,79 @@
+.row{
+    margin-top: 100px;
+} 
+.carousel-inner{
+    height:500px;
+    margin-top: -30px;
+}
+
+ .background {
+    font-size: 180px;
+    font-weight: 700;
+    color:#1f1f1f; 
+    z-index: 1;
+    margin-left: 75px;
+    top:-90px;
+    position:relative;
+    
+}
+.description{
+    z-index: 2;
+    position:absolute;
+    top:250px;
+    left:90px;
+    display:flex;
+    gap:200px;
+}
+.desc p{
+    font-size:18px ;
+    margin-bottom: 8px;
+    
+}
+.desc pre{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top:8px;
+    
+}
+.price{
+    color:#B1B5C8;
+    display:flex;
+    gap:15px;
+    align-items: center;
+    font-weight: bold;
+    margin-top: -80px;
+    margin-bottom: 8px;
+    
+}
+.price .discount{
+    font-size: larger;
+}    
+.price .actual{
+    color:#606060;
+    font-size: medium;
+}
+.shop-now-btn button{
+    background-color: red;
+    color:whitesmoke;
+    height:33px;
+    width:95px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top:30px;
+    transition-property:transform;
+}
+.shop-now-btn button:hover{
+   background-color: red;
+   transform:scale(1.25);
+}
+.col-md-6 .image1 img{
+    display:flex;
+    height:420px;
+    width:420px;
+    margin-top: -40px;
+    margin-left: 100px;
+}
+.indicators{
+    margin:20px auto;
+}
