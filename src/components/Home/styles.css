@@ -1,0 +1,125 @@
+.container-fluid{
+    align-items:center ;
+    justify-content: space-between;
+}
+.icons{
+    gap:50px;
+    margin-top: -120px;
+}
+.icons i{
+    font-size: 23px;
+    font-weight: bold;
+    color: #B1B5C8;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.icons i title{
+    background-color: transparent;
+    color:#B1B5C8;
+}
+.searchbar{
+    justify-content: center;
+}
+.searchbar input{
+    width:520px;
+    height: 39px;
+    background-color: transparent;
+    color:#B1B5C8;
+    border-color:#B1B5C8 ;
+}
+.searchbar .btn{
+    margin-left: -30px;
+
+}
+.message{
+    position:absolute;
+    right:10px;
+    margin-right: 0px;
+    border:1px solid #B1B5C8;
+    width:max-content;
+    height:max-content;
+    padding:5px;
+}
+.message span{
+    position:absolute;
+    right:2px;
+    top:0px;
+}
+.message button{
+    background-color: transparent;
+    color:#B1B5C8;
+    width:max-content;
+    padding: 3px;
+}
+.login-form{
+    position:relative;
+    margin:30px auto;
+    border:1px solid #B1B5C8;
+    width:320px;
+    height:max-content;
+    padding: 15px;
+}
+.login-form span{
+    position: absolute;
+    top:-2px;
+    right:3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.btn-login-btn{
+    height:31px;
+    width:285px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: red;
+    color:white;
+    font-size: 14px;
+}
+.login{
+    color: #AAB0AA;
+    text-align: center;
+    position:relative;
+    font-size: 12px;
+}
+.login::before{
+    position: absolute;
+    content: "";
+    display: block;
+    height: 1px;
+    width:70px;
+    background-color: black;
+    top: 50%;
+    left:0px;
+    
+
+}   
+.login::after{
+    position: absolute;
+    content: "";
+    display: block;
+    height: 1px;
+    width:60px;
+    background-color: black;
+    top: 50%;
+    right:0px;
+}  
+button{
+   padding:5px;
+    width:70px;
+    font-size: 10px;
+    margin-top: 10px;
+    color: white;
+}
+.fb{
+    background-color: #6CA0DC;
+    margin-right: 10px;
+}
+.google{
+    background-color:#D0213D;
+    margin-right: 10px;
+}
+.twit{
+    background-color:#007FFF;
+}
