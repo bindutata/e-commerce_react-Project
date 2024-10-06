@@ -1,0 +1,73 @@
+
+h2{
+    text-align: center;
+    margin-top: 120px;
+}
+.services {
+    display:flex;
+    justify-content: space-around;
+    gap:10px;
+    align-content: center;
+    margin-top:120px;
+
+}
+.advantages{
+    display:flex;
+    gap:20px;
+
+}
+.advantages .icon{
+    color:red;
+    font-size: 40px;
+}
+.desc .title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.desc .info{
+    margin-top: 0px;
+    font-size:large;
+    color:gray
+}
+
+
+
+
+
+/*.various-advantages h2{
+    text-align: center;
+    margin-top: 100px;
+}
+.advantages .icon{
+    height:auto;
+    width:200px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding: 10px;
+}
+.advantages{
+    display:flex;
+    justify-content: space-around;
+    gap:10px;
+    align-items: center;
+    margin-top:80px;
+}
+.advantages i{
+    font-size: 30px;
+    color:red;
+    
+}
+.advan .p1{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top:0px ;
+}
+.advan small{
+    margin-top: 0px;
+}*/
