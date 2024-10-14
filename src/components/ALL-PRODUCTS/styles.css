@@ -48,3 +48,12 @@ label{
     color:#606060;
     margin-left: 25px;
 }
+.clearfilter button{
+    background-color: red;
+    color:black;
+    width:100px;
+    padding:2px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}

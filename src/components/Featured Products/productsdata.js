@@ -1,6 +1,6 @@
 export const featuredProducts=[
     {
-        id: 1,
+        id: 2,
         tag: "featured-product",
         title: "boAt Rockerz 518",
         image:"../images/products/boat518-1 (1).png",
@@ -9,7 +9,7 @@ export const featuredProducts=[
         
     },
     {
-        id: 2,
+        id: 8,
         title: "JBL Tune 760NC",
         image:"../images/products/jbl760nc-1 (1).png",
         finalPrice: 5999,
@@ -17,7 +17,7 @@ export const featuredProducts=[
         
     },
     {
-        id: 3,
+        id: 9,
         tag: "featured-product",
         image:"../images/products/boat255r-1 (1).png",
         title: "boAt Rockerz 255",
@@ -26,7 +26,7 @@ export const featuredProducts=[
         
     },
     {
-        id: 4,
+        id: 13,
         tag: "featured-product",
         image:"../images/products/jbl-endu-1 (1).png",
         title: "JBL Endurance Run Sports",
@@ -34,7 +34,7 @@ export const featuredProducts=[
         originalPrice: 1599,
     },
     {
-        id: 5,
+        id: 14,
         tag: "featured-product",
         image:"../images/products/boat203-1 (1).png",
         title: "boAt Airdopes 203",

@@ -1,7 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../REDUX/ActionCreator";
 
 const Products=({productCards})=>{
+
+    const dispatch=useDispatch();
 
     const productRatings=(rateCount)=>{
         return(
@@ -27,7 +31,7 @@ const Products=({productCards})=>{
                                         <p className='discount'><i className="bi bi-currency-rupee"></i>{product.finalPrice}</p>
                                         <p className='actual'><strike><i className="bi bi-currency-rupee"></i>{product.originalPrice}</strike></p>
                                     </div>
-                                        <Link to="#" className="btn">AddToCart</Link>
+                                        <Link to="/cart-page"><button className="btn" onClick={()=>dispatch(addToCart(product))}>AddToCart</button></Link>
                                 </div>
                             </div>
                         ))}

@@ -4,7 +4,7 @@
 }
 .icons{
     gap:50px;
-    margin-top: -120px;
+    margin-top:-50px;
 }
 .icons i{
     font-size: 23px;
@@ -17,20 +17,66 @@
     background-color: transparent;
     color:#B1B5C8;
 }
+.cart-icon{
+    position:relative;
+}
+.cart-count{
+    position:absolute;
+    left:18px;
+    top:-6px;
+    background-color: red;
+    color:white;
+    border-radius: 50%;
+    padding:5px 8px;
+    font-size: 12px;
+    text-align: center;
+}
 .searchbar{
     justify-content: center;
+    position:relative;
 }
 .searchbar input{
     width:520px;
     height: 39px;
-    background-color: transparent;
-    color:#B1B5C8;
-    border-color:#B1B5C8 ;
+    background-color: #1f1f1f;
+    color:#AAB0AA;
+    border-color:#AAB0AA ;
 }
-.searchbar .btn{
-    margin-left: -30px;
+.searchbar input:focus{
+    background-color: #1f1f1f;
+    color:#AAB0AA;
+}
+ .bi-x-lg{
+    position:absolute;
+    top:125px;
+    right:650px;
+    cursor:pointer;
+    color:#AAB0AA;
+}
+.suggestions{
+    position:absolute;
+    z-index: 10;
+    background-color:#1f1f1f;
+    border:1px solid #AAB0AA;
+    width:520px;
+    color: #AAB0AA;
+    left:640px;
+    top:180px;
+    
+}
+.suggestions .list-group li{
+    list-style:none;
+    margin-top: 10px;
+}
 
+.suggestions .list-group li a{
+    text-decoration: none;
+    color:#B1B5C8;
+    font-size:15px;
 }
+.suggestions .list-group li a:hover{
+    color:red;
+} 
 .message{
     position:absolute;
     right:10px;

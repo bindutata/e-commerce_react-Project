@@ -1,79 +1,77 @@
-.row{
+#carouselExampleAutoplaying .row{
     margin-top: 100px;
 } 
-.carousel-inner{
+#carouselExampleAutoplaying .carousel-inner{
     height:500px;
-    margin-top: -30px;
+    margin-top:100px;
 }
 
- .background {
+#carouselExampleAutoplaying .background {
     font-size: 180px;
     font-weight: 700;
-    color:#1f1f1f; 
+    color: #1f1f1f; 
     z-index: 1;
     margin-left: 75px;
     top:-90px;
     position:relative;
     
 }
-.description{
+#carouselExampleAutoplaying .description{
     z-index: 2;
     position:absolute;
-    top:250px;
-    left:90px;
+    top:70px;
+    left:160px;
     display:flex;
     gap:200px;
 }
-.desc p{
-    font-size:18px ;
-    margin-bottom: 8px;
-    
+#carouselExampleAutoplaying .desc p{
+    font-size:28px ;
 }
-.desc pre{
+#carouselExampleAutoplaying .desc pre{
     font-size: 40px;
     font-weight: bold;
-    margin-top:8px;
+    margin-top:-5px;
     
 }
-.price{
+#carouselExampleAutoplaying .price{
     color:#B1B5C8;
     display:flex;
-    gap:15px;
+    gap:20px;
     align-items: center;
     font-weight: bold;
-    margin-top: -80px;
+    
     margin-bottom: 8px;
     
 }
-.price .discount{
-    font-size: larger;
+#carouselExampleAutoplaying .price .discount{
+    font-size:35px;
 }    
-.price .actual{
+#carouselExampleAutoplaying .price .actual{
     color:#606060;
-    font-size: medium;
+    font-size: 25;
 }
-.shop-now-btn button{
+#carouselExampleAutoplaying .shop-now-btn button{
     background-color: red;
     color:whitesmoke;
-    height:33px;
+    padding:5px;
     width:95px;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
     border-radius: 5px;
     margin-top:30px;
     transition-property:transform;
 }
-.shop-now-btn button:hover{
+#carouselExampleAutoplaying .shop-now-btn button:hover{
    background-color: red;
    transform:scale(1.25);
 }
-.col-md-6 .image1 img{
+#carouselExampleAutoplaying .col-md-6 .image1 img{
     display:flex;
-    height:420px;
-    width:420px;
+    height:480px;
+    width:480px;
     margin-top: -40px;
     margin-left: 100px;
 }
-.indicators{
-    margin:20px auto;
+.carousel-control-prev,.carousel-control-next{
+    display:none;
 }

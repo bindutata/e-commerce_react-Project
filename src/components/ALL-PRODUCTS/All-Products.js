@@ -1,7 +1,5 @@
-import React,{useEffect, useState} from "react";
- 
+import React,{ useState} from "react";
 import {sortMenu,brandsMenu,categoryMenu} from './filterdata';
-
 import Advantages from '../Advantages/Advantages.js';
 import Footer from '../Footer/Footer.js';
 import SortProducts from './SortProducts.js';
@@ -33,15 +31,28 @@ const AllProducts=()=>{
             else{
                 return [...prevselectedCategory.filter((pdtcategory)=> pdtcategory!==category)]
             }
-        })
-    }
-        
+        });
+    };
+
+    const clearFilter= sortMethod!=="" || selectedBrands.length >0 || selectedCategory.length >0;
+    
+    const handleClearFilter=()=>{
+        setSortMethod('');
+        setSelectedBrands([]);
+        setSelectedCategory([]);
+    };
+
     return(
         <div className="container-fluid ">
             <div className="row ">
                 <div className="col-md-2">
                     
                     <div className="sort-filter">
+                        {clearFilter && (
+                                <div className="clearfilter">
+                                    <button onClick={handleClearFilter}>Clear Filter</button> 
+                                </div>
+                            )}   
                         <div className="sort">
                             <h4>Sort By</h4>
                             <hr></hr>
@@ -75,9 +86,11 @@ const AllProducts=()=>{
                                     <label htmlFor={menu.label}>{menu.label}</label>
                                 </div>
                             ))}
-                        </div>   
+                        </div>
+                        
                     </div>
                 </div>
+                
                 
                 <div className="col-md-10 " style={{marginTop:"-80px"}}>
                     <SortProducts sortMethod={sortMethod} selectedBrands={selectedBrands}

@@ -7,8 +7,8 @@ const Advantages=()=>{
         <div className="container-fluid">
             <h2>OUR ADVANTAGES</h2>
             <div className="services">
-                {advantagesData.map((item)=>(
-                    <div className="advantages">
+                {advantagesData.map((item,index)=>(
+                    <div className="advantages" key={index}>
                         <div className="icon">
                             {item.icon}
                         </div>
