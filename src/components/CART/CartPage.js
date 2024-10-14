@@ -4,6 +4,8 @@ import EmptyCartPage from '../ALL-PRODUCTS/EmptyCartpage';
 import  {useDispatch} from 'react-redux';
 import '../CART/styles.css';
 import {removeFromCart} from '../REDUX/ActionCreator';
+import Advantages from '../Advantages/Advantages.js';
+import Footer from '../Footer/Footer.js';
 
 const Cart=()=>{
 
@@ -105,8 +107,11 @@ const Cart=()=>{
                     </div>
                     
                 </>        
-                :(<EmptyCartPage/>)}               
-            </div>    
+                :(<EmptyCartPage/>)}    
+                      
+            </div> 
+            <Advantages/>
+                <Footer/>        
         </>
     );
 };
