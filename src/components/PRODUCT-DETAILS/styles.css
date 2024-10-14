@@ -1,0 +1,251 @@
+.product-details{
+    margin-top:20px;
+    padding:10px;
+}
+.product-images{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    border-color: #7E7E7E;
+}
+.product-images img{
+    height: 110px;
+    width:110px;
+    padding: 5px;
+    border: 2px solid #606060;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+.img-main-view img{
+    height: 500px;
+    width:500px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.about-prod{
+    margin-top: -20px;
+    margin-left: 20px;
+    position:relative;
+}
+.about-prod .desc{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.about-prod .ratings{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    gap:5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.about-prod .ratings i{
+    font-size: 12px;
+    color:red;
+} 
+.about-prod .ratings p{
+    font-size: 18px;
+    color: #7E7E7E;
+}
+.price{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 25px;
+    
+}
+.price .discount{
+    font-size:30px;
+}
+.price .actual{
+    font-size: 20px;
+    color: #606060;
+}
+.savings{
+    color: green;
+    font-size: 16px;
+    margin-top:-10px;
+    margin-bottom: 0px;
+}
+small{
+    font-size: 15px;
+    color: #7E7E7E;
+    
+    
+}
+.about-prod .availability{
+    height: 30px;
+    width:80px;
+    background-color: green;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    position:absolute;
+    right:60px;
+   top:210px;
+    border-radius: 3px;
+    
+}
+h6{
+    margin-top: 20px;
+}
+.offers-discount{
+    display:flex;
+    gap:10px;
+    margin-bottom: 20px;
+}
+.offers{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #7E7E7E;
+    border: 1px solid #7E7E7E;
+    height:30px;
+    padding:0px 2px;
+    
+}
+.add-to-cart{
+    height: 35px;
+    width:110px;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+.product-summary{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap:70px;
+    font-size:22px ;
+    font-weight: bold;
+}
+.product-summary a{
+    color:#7E7E7E;
+    text-decoration: none;
+}
+.product-summary a:hover{
+    width:max-content;
+    color:white;
+    border:none;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px 5px;
+    text-align: center;
+}
+.specific{
+    margin-top: 120px;
+    display: flex;
+    gap:200px;
+    padding: 10px;
+}
+.specific .list1 li{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #7E7E7E;
+    list-style: none;
+}
+.specific .list2 li{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #7E7E7E;
+    list-style: none;
+    font-weight: bold;
+    text-align: right;
+}
+.product-overview{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.product-overview p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.product-overview ul li{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.product-overview .p1{
+    font-weight: normal;
+}
+.review{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.review .usericon{
+    display:flex;
+    gap:20px;
+    text-align: center;
+}
+.usericon .icon{
+    font-size: 50px;
+}
+.name-ratings {
+    text-align: left;
+}
+.name-ratings .rating{
+    font-size: 15px;
+}
+
+.various-products h3{
+    text-align: center;
+    margin: 100px auto;
+} 
+/*.various-products .product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.card{
+    height:300px;
+    width:250px !important;
+    border:1px solid #B1B5C8;
+    margin-bottom:5px ;
+}
+.product .productimg{
+    height:150px;
+    width:140px;
+    padding: 10px;
+}
+.product .productimg{
+    background-color:#1f1f1f ;
+    text-align: center;
+    height: 120px;
+    width:100%
+}
+.card-body .ratings>i{
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 10px;
+    color:red;
+}
+.card-title{
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+.info{
+    color: #606060;
+    font-size: small;
+    margin-top: 3px;
+}
+.line{
+    color: #606060;
+}
+.price{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.add-to-cart-btn button{
+    height: 35px;
+    width:100%;
+    background-color: red;
+    color:white;
+}*/
+
+
