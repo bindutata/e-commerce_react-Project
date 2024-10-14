@@ -9,7 +9,7 @@ const Products=({productCards})=>{
 
     const productRatings=(rateCount)=>{
         return(
-        Array.from({length:rateCount},(_,index)=>(
+        Array.from({length:rateCount},(num,index)=>(
             <i key={index} className="bi bi-star-fill" style={{color:"red"}}></i>
         ))
     ); };
@@ -18,8 +18,9 @@ const Products=({productCards})=>{
         <div className="various-products">
                     <div className="product">
                         {productCards.map((product)=>(
-                            <div className="card" style={{width: "19rem"}} key={product.id}>
-                                <img src={product.image} className="card-img-top" alt={product.title}/>
+                            <div className="card" style={{width: "16rem"}} key={product.id}>
+                                <Link to={`/Product-Details/${product.id}`}><img src={product.image} 
+                                className="card-img-top" alt={product.title}/></Link> 
                                 <div className="card-body "  >
                                     <div className="ratings">
                                         {productRatings(product.rateCount)}

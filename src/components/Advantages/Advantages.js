@@ -5,7 +5,7 @@ import '../Advantages/styles.css'
 const Advantages=()=>{
    return(
         <div className="container-fluid">
-            <h2>OUR ADVANTAGES</h2>
+            <h4>OUR ADVANTAGES</h4>
             <div className="services">
                 {advantagesData.map((item,index)=>(
                     <div className="advantages" key={index}>

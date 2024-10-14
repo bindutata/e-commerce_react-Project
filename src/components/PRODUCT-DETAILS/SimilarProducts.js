@@ -1,10 +1,7 @@
 import React from "react";
-
 import { topProductsData } from "../Top Products/products data";
 import { Link } from "react-router-dom";
 import '../PRODUCT-DETAILS/styles.css';
-
-
 
 const SimilarProducts=({selectedpdt,handleMainImage})=>{
     
@@ -13,16 +10,16 @@ const SimilarProducts=({selectedpdt,handleMainImage})=>{
             product.id!==selectedpdt.id)
     
     const  productRatings=(ratecount) =>(
-        Array.from({length:ratecount},(_,index)=>(
+        Array.from({length:ratecount},(num,index)=>(
             <i key={index} className="bi bi-star-fill" style={{color:"red"}}></i>
         ))
     )  
     return(
         <div className="various-products">
-            <h3>Related Products</h3>
+            <h4>Related Products</h4>
             <div className="product">
                     {similarProducts.map((product)=>(
-                        <div className="card" style={{width: "19rem"}} key={product.id}>
+                        <div className="card" style={{width: "14rem"}} key={product.id}>
                             <div className="productimg">
                                 <Link to={`/Product-Details/${product.id}`}><img src={product.image} className="card-img-top" 
                                 alt={product.title} onClick={()=>handleMainImage(product.image)}/></Link>

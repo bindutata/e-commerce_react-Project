@@ -5,22 +5,24 @@
     text-align: center ;
 }
 .icon .bi-cart-x{
-    font-size:180px;
+    font-size:150px;
     color:red;
 }
 .text{
     background-color:red;
     color:white;
-    font-size: x-large;
     text-align: center;
-    margin-bottom: 10px;
-    width:200px;
+    width:180px;
     margin:auto;
+}
+.text p{
+    font-size:18px;
     
 }
 .btn{
     width:fit-content;
-    font-size: large;
+    font-size: 18px;
+    height:auto;
 }
 .sort-filter{
     background-color: #161616;
@@ -28,7 +30,7 @@
     padding: 20px;
     height:auto;
 }    
-.sort h4{
+.sort h6{
     margin-bottom: 3px;
 }
 .sorting,.brands,.category{
@@ -38,7 +40,7 @@
 .sorting div{
     text-decoration: none;
     color:#606060;
-    font-size: 17px;
+    font-size: 13px;
     cursor: pointer;
 }
 .filter{
@@ -47,6 +49,7 @@
 label{
     color:#606060;
     margin-left: 25px;
+    font-size: 13px;
 }
 .clearfilter button{
     background-color: red;
@@ -55,5 +58,5 @@ label{
     padding:2px;
     border-radius: 5px;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 13px;
 }

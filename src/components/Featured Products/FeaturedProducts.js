@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const FeaturedProducts=()=>{
     return(
         <>
-            <h2>Featured Products</h2>
+            <h3>Featured Products</h3>
             <div className='featured-products'>
                 {featuredProducts.map((pdt)=>(
                     <div className='image' key={pdt.id}>

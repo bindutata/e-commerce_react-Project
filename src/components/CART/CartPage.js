@@ -81,7 +81,7 @@ const Cart=()=>{
                     
                     <div className='summary'>
                         <div className='heading'>
-                            <h4>Order Summary &nbsp;&nbsp;&nbsp;({cart_Items.length} items)</h4>
+                            <h5>Order Summary &nbsp;&nbsp;&nbsp;({cart_Items.length} items)</h5>
                         </div>
                         <div className='order-price'>
                             <ul className='list1'>

@@ -2,12 +2,17 @@
     align-items:center ;
     justify-content: space-between;
 }
+.logo{
+    font-size:23px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
 .icons{
     gap:50px;
-    margin-top:-50px;
+    /*margin-top:-50px;*/
 }
 .icons i{
-    font-size: 23px;
+    font-size: 20px;
     font-weight: bold;
     color: #B1B5C8;
     padding-right: 10px;

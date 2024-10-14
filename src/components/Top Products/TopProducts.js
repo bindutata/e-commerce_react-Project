@@ -11,7 +11,7 @@ export const ProductCards=({products})=>{
     
     const productRatings=(rateCount)=>{
         return(
-        Array.from({length:rateCount},(_,index)=>(
+        Array.from({length:rateCount},(num,index)=>(
             <i key={index} className="bi bi-star-fill" style={{color:"red"}}></i>
         ))
         
@@ -22,7 +22,7 @@ export const ProductCards=({products})=>{
         <div className="various-products">
             <div className="product">
                 {products.map((product)=>(
-                    <div className="card" style={{width: "19rem"}} key={product.id}>
+                    <div className="card" style={{width: "15rem"}} key={product.id}>
                         <Link to={`/Product-Details/${product.id}`}><img src={product.image} className="card-img-top" 
                         alt={product.title}/></Link>
                         <div className="card-body "  >
@@ -49,10 +49,10 @@ export const ProductCards=({products})=>{
 
 export const BrowseProductCard=()=>{
     return(
-        <div className="card browse-card" style={{width: "19rem"}}>
+        <div className="card browse-card" style={{width: "17rm"}}>
             <div className="browse">
                 <p>Browse All Products</p>
-                <p><i className="bi bi-arrow-right"></i></p>
+                <Link to='/all-products' style={{textDecoration:'none'}}><p><i className="bi bi-arrow-right"></i></p></Link>
             </div>
         </div>
     );
@@ -73,7 +73,7 @@ export const TopProducts=()=>{
     };
     return(
         <div className="container-fluid">
-            <h2>Top Products</h2>
+            <h3>Top Products</h3>
             <div className="products-list">
                 <Link to='#' onClick={()=>{handleCategory('All')}}>All</Link>
                 <Link to='#' onClick={()=>{handleCategory('Headphones')}}>Headphones</Link> 

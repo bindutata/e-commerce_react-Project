@@ -54,7 +54,7 @@ const AllProducts=()=>{
                                 </div>
                             )}   
                         <div className="sort">
-                            <h4>Sort By</h4>
+                            <h6>Sort By</h6>
                             <hr></hr>
                             {sortMenu.map((menu,index)=>(
                                 <div className="sorting" key={index}>
@@ -63,7 +63,7 @@ const AllProducts=()=>{
                                 ))}
                         </div>
                         <div className="filter">
-                            <h4>Filter By</h4> 
+                            <h6>Filter By</h6> 
                             <hr></hr>   
                             {brandsMenu.map((menu,index )=>(
                                 <div className="brands" key={index}>
@@ -75,7 +75,7 @@ const AllProducts=()=>{
                             ))}
                         </div>
                         <div className="category">
-                            <h4> Category</h4>
+                            <h6> Category</h6>
                             <hr></hr>
                             {categoryMenu.map((menu,index)=>(
                                 <div className="category" key={index}>

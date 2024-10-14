@@ -140,12 +140,12 @@ export const topProductsData=[
             id: 7,
             tag: "hero-product",
             tagline: "Give your favourite music a boost.",
-            images: "../images/products/sonyxb910n-1 (1).png",
+            image: "../images/products/sonyxb910n-1 (1).png",
             images: [
-                "/images/products/sonyxb910n-1.png",
-                "/images/products/sonyxb910n-2.png",
-                "/images/products/sonyxb910n-3.png",
-                "/images/products/sonyxb910n-4.png",
+                "../images/products/sonyxb910n-1.png",
+                "../images/products/sonyxb910n-2.png",
+                "../images/products/sonyxb910n-3.png",
+                "../images/products/sonyxb910n-4.png",
             ],
             brand: "Sony",
             title: "Sony WH-XB910N",
@@ -252,7 +252,7 @@ export const topProductsData=[
         },
         {
             id: 12,
-            image:"../images/products/boat228-1 (1).png",
+            image:"../images/products/boat228-1.png",
             images: [
                 "../images/products/boat228-1.png",
                 "../images/products/boat228-2.png",
@@ -320,7 +320,7 @@ export const topProductsData=[
         },
         {
             id: 15,
-            image:"../images/products/sonych710n-1 (1).png",
+            image:"../images/products/sonych710n-1.png",
             images: [
                 "../images/products/sonych710n-1.png",
                 "../images/products/sonych710n-2.png",
@@ -342,7 +342,7 @@ export const topProductsData=[
         },
         {
             id: 16,
-            image:"../images/products/jbl500bt-1 (1).png",
+            image:"../images/products/jbl500bt-1.png",
             images: [
                 "../images/products/jbl500bt-1.png",
                 "../images/products/jbl500bt-2.png",
@@ -364,7 +364,7 @@ export const topProductsData=[
         },
         {
             id: 17,
-            image:"../images/products/boat381-1 (1).png",
+            image:"../images/products/boat381-1.png",
             images: [
                 "../images/products/boat381-1.png",
                 "../images/products/boat381-2.png",
@@ -386,7 +386,7 @@ export const topProductsData=[
         },
         {
             id: 18,
-            image:"../images/products/sony-ex14ap-1 (1).png",
+            image:"../images/products/sony-ex14ap-1.png",
             images: [
                 "../images/products/sony-ex14ap-1.png",
                 "../images/products/sony-ex14ap-2.png",
@@ -408,7 +408,7 @@ export const topProductsData=[
         },
         {
             id: 19,
-            image:"../images/products/sonyxb400-1 (1).png",
+            image:"../images/products/sonyxb400-1.png",
             images: [
                 "../images/products/sonyxb400-1.png",
                 "../images/products/sonyxb400-2.png",

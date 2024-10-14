@@ -49,13 +49,13 @@ const Specificatons=({selectedpdt})=>{
                     )}
                     {requirement.toLowerCase()==='Overview'.toLowerCase() && (
                         <div className="product-overview">
-                            <p>The {selectedpdt.title} Truly wireless Earbuds provides fabulous sound quality.</p>
+                            <p>The <span style={{color:'red'}}>{selectedpdt.title} Truly wireless Earbuds</span> provides fabulous sound quality.</p>
                             <ul>
                                 <li>Sound tuned to perfection</li>
                                 <li>Comfortable to wear</li>
                                 <li>Long hrs playback time</li>
                             </ul>
-                            <p className="p1">Buy the {selectedpdt.title} Truly wireless Earbuds which you with fabulous music experience by
+                            <p className="p1">Buy the <span style={{color:'red'}}>{selectedpdt.title} Truly wireless Earbuds</span> which you with fabulous music experience by
                                 providing you with awesome sound quality that you can ever move on from.
                                 Enjoy perfect flexibility and mobility with amazing music quality with these earbuds 
                                 giving you a truly awesome audio experience.It blends with exceptional sound quality 

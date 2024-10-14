@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Carousel =()=>{
 
+    
     const slideimages=()=>{
         return(
             <div id="carouselExampleAutoplaying" className="carousel slide" 
@@ -32,7 +33,7 @@ const Carousel =()=>{
                                     </div>
                                     <div className='col-md-6'>
                                         <div className='image1'>
-                                            <img src={img.heroImage} alt={img.title}/>
+                                            <img src={img.image} alt={img.title}/>
                                         </div>
                                     </div>
                                 </div>
@@ -49,6 +50,7 @@ const Carousel =()=>{
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="vnameisually-hidden"></span>
             </button>
+            
             </div>
         
         );

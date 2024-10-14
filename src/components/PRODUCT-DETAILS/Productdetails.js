@@ -24,7 +24,7 @@ const ProductDetails=()=>{
     };
 
     const productRatings=(ratecount)=>(
-        Array.from({length:ratecount},(_,index)=>(
+        Array.from({length:ratecount},(num,index)=>(
             <i key={index} className="bi bi-star-fill" style={{color:"red"}}></i>
         ))
     );
@@ -56,7 +56,7 @@ const ProductDetails=()=>{
                     </div>
                     <div className="col-md-5">
                         <div className="about-prod">
-                            <h3>{selectedProduct.title}</h3>
+                            <h6>{selectedProduct.title}</h6>
                             <p className="desc">{selectedProduct.info}</p>
                             <div className="ratings">
                                 {productRatings(selectedProduct.rateCount)}
