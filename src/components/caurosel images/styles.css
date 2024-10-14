@@ -7,7 +7,7 @@
 }
 
 #carouselExampleAutoplaying .background {
-    font-size: 180px;
+    font-size: 150px;
     font-weight: 700;
     color: #1f1f1f; 
     z-index: 1;
@@ -28,7 +28,7 @@
     font-size:18px ;
 }
 #carouselExampleAutoplaying .desc pre{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     margin-top:-5px;
     
@@ -72,6 +72,6 @@
     margin-top: -40px;
     margin-left: 100px;
 }
-/*.carousel-control-prev,.carousel-control-next{
+.carousel-control-prev,.carousel-control-next{
     display:none;
-}*/
+}

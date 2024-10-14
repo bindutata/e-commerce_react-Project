@@ -42,7 +42,7 @@
 }
 .searchbar input{
     width:520px;
-    height: 39px;
+    height: 33px;
     background-color: #1f1f1f;
     color:#AAB0AA;
     border-color:#AAB0AA ;
@@ -53,8 +53,8 @@
 }
  .bi-x-lg{
     position:absolute;
-    top:125px;
-    right:650px;
+    top:50px;
+    right:420px;
     cursor:pointer;
     color:#AAB0AA;
 }
@@ -65,19 +65,19 @@
     border:1px solid #AAB0AA;
     width:520px;
     color: #AAB0AA;
-    left:640px;
-    top:180px;
+    left:418px;
+    top:90px;
     
 }
 .suggestions .list-group li{
     list-style:none;
-    margin-top: 10px;
+    
 }
 
 .suggestions .list-group li a{
     text-decoration: none;
     color:#B1B5C8;
-    font-size:15px;
+    font-size:12px;
 }
 .suggestions .list-group li a:hover{
     color:red;
