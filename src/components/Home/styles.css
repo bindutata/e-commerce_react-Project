@@ -58,7 +58,7 @@
     cursor:pointer;
     color:#AAB0AA;
 }
-.suggestions{
+.suggestions,.no-products{
     position:absolute;
     z-index: 10;
     background-color:#1f1f1f;
@@ -96,6 +96,9 @@
     right:2px;
     top:0px;
 }
+.message p{
+    margin-top: -20px;
+} 
 .message button{
     background-color: transparent;
     color:#B1B5C8;

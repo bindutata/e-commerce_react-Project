@@ -18,7 +18,7 @@ const Footer=()=>{
                     <div className="service" key={service.id}>
                         <h6>{service.title}</h6>
                         {service.menu.map((menu)=>(
-                            <Link to='#' key={menu.id}>{menu.link}</Link>                            ))}
+                            <Link to='#' key={menu.id}>{menu.link}</Link> ))}
                     </div>
                 ))}
             </div>

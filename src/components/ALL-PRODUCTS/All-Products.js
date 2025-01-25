@@ -46,7 +46,6 @@ const AllProducts=()=>{
         <div className="container-fluid ">
             <div className="row ">
                 <div className="col-md-2">
-                    
                     <div className="sort-filter">
                         {clearFilter && (
                                 <div className="clearfilter">
@@ -90,8 +89,6 @@ const AllProducts=()=>{
                         
                     </div>
                 </div>
-                
-                
                 <div className="col-md-10 " style={{marginTop:"-80px"}}>
                     <SortProducts sortMethod={sortMethod} selectedBrands={selectedBrands}
                     selectedCategory={selectedCategory}/>

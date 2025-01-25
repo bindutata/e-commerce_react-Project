@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 
 const Carousel =()=>{
 
-    
     const slideimages=()=>{
         return(
             <div id="carouselExampleAutoplaying" className="carousel slide" 
@@ -56,11 +55,6 @@ const Carousel =()=>{
         );
     };        
             
-        
-                   
-            
-        
-    
     return(
         <>
         {slideimages()}

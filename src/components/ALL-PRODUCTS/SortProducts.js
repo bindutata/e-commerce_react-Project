@@ -7,7 +7,7 @@ const SortProducts=({sortMethod,selectedBrands,selectedCategory})=>{
     const [productCards,setProductCards]=useState(topProductsData);
     
     useEffect(()=>{
-        /*let sortedProducts=[...topProductsData];*/
+        
         let filteredProducts=[...topProductsData];
 
         if (selectedBrands.length>0){

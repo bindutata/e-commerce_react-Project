@@ -80,7 +80,7 @@ const Navbar = () => {
                         <ul>
                             {filteredProducts.map((product,index)=>(
                                 <div className='list-item' key={index}>
-                                    <li key={index} onClick={()=>handleSuggestions(product.id)}>
+                                    <li key={index} onClick={()=>handleSuggestions()}>
                                     <Link to={`/product-details/${product.id}`}>{product.title}</Link></li>
                                 </div>
                                 ))}

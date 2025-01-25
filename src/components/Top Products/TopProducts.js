@@ -5,19 +5,48 @@ import '../Top Products/styles.css';
 import {useDispatch} from 'react-redux';
 import {addToCart} from '../REDUX/ActionCreator';
 
+export const TopProducts=()=>{
+    const [categorySelected,setCategorySelected]=useState('All');
+    const [filteredpdts,setfilteredpdts]=useState(topProductsData);
+
+    const handleCategory=(category)=>{
+        setCategorySelected(category);
+        const filteredProducts=(category==='All')?  
+                topProductsData:topProductsData.filter((product)=>
+                product.category.toLowerCase()===category.toLowerCase()
+        );
+        setfilteredpdts(filteredProducts);
+
+    };
+    return(
+        <div className="container-fluid">
+            <h3>Top Products</h3>
+            <div className="products-list">
+                <Link to='#' onClick={()=>{handleCategory('All')}}>All</Link>
+                <Link to='#' onClick={()=>{handleCategory('Headphones')}}>Headphones</Link> 
+                <Link to='#' onClick={()=>{handleCategory('Earbuds')}}>Earbuds</Link>
+                <Link to='#' onClick={()=>{handleCategory('Earphones')}}>Earphones</Link> 
+                <Link to='#' onClick={()=>{handleCategory('Neckbands')}}>Neckbands</Link>
+            </div>
+            <ProductCards products={filteredpdts} />
+            
+        </div>
+    );
+};
+
+
 export const ProductCards=({products})=>{
     
     const dispatch=useDispatch();
     
     const productRatings=(rateCount)=>{
         return(
-        Array.from({length:rateCount},(num,index)=>(
+        Array.from({length:rateCount},index=>(
             <i key={index} className="bi bi-star-fill" style={{color:"red"}}></i>
         ))
         
     ); };
    
-    
     return(
         <div className="various-products">
             <div className="product">
@@ -58,31 +87,3 @@ export const BrowseProductCard=()=>{
     );
 } ;
 
-export const TopProducts=()=>{
-    const [categorySelected,setCategorySelected]=useState('All');
-    const [filteredpdts,setfilteredpdts]=useState(topProductsData);
-
-    const handleCategory=(category)=>{
-        setCategorySelected(category);
-        const filteredProducts=category==='All'?  
-                topProductsData:topProductsData.filter((product)=>
-                product.category.toLowerCase()===category.toLowerCase()
-        );
-        setfilteredpdts(filteredProducts);
-
-    };
-    return(
-        <div className="container-fluid">
-            <h3>Top Products</h3>
-            <div className="products-list">
-                <Link to='#' onClick={()=>{handleCategory('All')}}>All</Link>
-                <Link to='#' onClick={()=>{handleCategory('Headphones')}}>Headphones</Link> 
-                <Link to='#' onClick={()=>{handleCategory('Earbuds')}}>Earbuds</Link>
-                <Link to='#' onClick={()=>{handleCategory('Earphones')}}>Earphones</Link> 
-                <Link to='#' onClick={()=>{handleCategory('Neckbands')}}>Neckbands</Link>
-            </div>
-            <ProductCards products={filteredpdts} />
-            
-        </div>
-    );
-};

@@ -32,11 +32,11 @@
     margin-bottom: 20px;
 }    
 .card{
-    height:425px;
+    height:382px;
 }
 .product .card img{
     background-color: #1f1f1f;
-    height:200px;
+    height:180px;
     width:100%;
     padding: 15px;
     display:block;
@@ -48,6 +48,9 @@
     background-color:#101110  ! important; 
     padding:15px;
     
+}
+.ratings{
+    margin-top: -10px;
 }
 .card-body .ratings i{
     color:red;
@@ -67,13 +70,15 @@
 }
 .line{
     color:#B1B5C8;
+    margin-top: -5px;
+    margin-bottom: 10px;
 }
 .btn{
     width:100%;
     background-color: red;
     font-size: 15px !important;
     color:white;
-    margin-top:-20px !important;
+    margin-top:-33px !important;
 }
 .btn:hover{
     opacity:0.6;
@@ -81,7 +86,7 @@
     color:white;
 }
 .price{
-    margin-top:0px !important;
+    margin-top:-3px !important;
 }
 .price .discount{
     font-size:25px;
@@ -92,7 +97,7 @@
 .browse-card {
     border:1px solid #B1B5C8;
     background-color:#101110  !important;
-    height:425px;
+    height:380px;
     
 }
 .browse{
@@ -100,7 +105,9 @@
     font-size: x-large;
     color:#B1B5C8;
     margin-top: 200px;
+    
 }
+
 
 
 

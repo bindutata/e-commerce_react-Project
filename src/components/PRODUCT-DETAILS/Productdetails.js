@@ -15,6 +15,7 @@ const ProductDetails=()=>{
     const dispatch=useDispatch();
 
     const {id}=useParams(); //from this we get id from url.
+    // console.log(id);
     const selectedProduct=topProductsData.find((product)=>product.id===+id);
 
     const [mainImage,setMainImage]=useState(selectedProduct?selectedProduct.image:"");

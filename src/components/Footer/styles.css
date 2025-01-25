@@ -7,7 +7,7 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: 20px;
-    height: 330px;
+    height: 270px;
 }
 .contact{
     height: 200px;
@@ -18,10 +18,10 @@
     text-align:left;
 }
 .contact p{
-    margin-top: -70px;
+    
     margin-bottom:5px ;
     color:#606060;
-    font-size: 12px;
+    font-size: 14px;
 }
 .contact [type=email]{
     width: 250px;

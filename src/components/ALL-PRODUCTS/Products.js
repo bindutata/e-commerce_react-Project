@@ -9,7 +9,7 @@ const Products=({productCards})=>{
 
     const productRatings=(rateCount)=>{
         return(
-        Array.from({length:rateCount},(num,index)=>(
+        Array.from({length:rateCount},index=>(
             <i key={index} className="bi bi-star-fill" style={{color:"red"}}></i>
         ))
     ); };
