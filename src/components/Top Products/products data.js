@@ -140,9 +140,9 @@ export const topProductsData=[
             id: 7,
             tag: "hero-product",
             tagline: "Give your favourite music a boost.",
-            image: "../images/products/sonyxb910n-1 (1).png",
+            image: "/images/products/sonyXb910n-1 (1).png",
             images: [
-                "../images/products/sonyXb910n-1 (1).png",
+                "/images/products/sonyXb910n-1 (1).png",
                 "../images/products/sonyXb910n-2.png",
                 "../images/products/sonyXb910n-3.png",
                 "../images/products/sonyXb910n-4.png",
