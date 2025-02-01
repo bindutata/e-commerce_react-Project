@@ -9,6 +9,8 @@
 }
 .icons{
     gap:30px;
+    position: relative;
+    align-items: center;
     /*margin-top:-50px;*/
 }
 .icons i{
@@ -18,9 +20,24 @@
     padding-right: 10px;
     cursor: pointer;
 }
-.icons i title{
-    background-color: transparent;
+.tooltip{
+    border:1px solid #B1B5C8;
+    border-radius: 2px;
+    padding-right: 2px;
+    background-color: #1f1f1f;
     color:#B1B5C8;
+    position: absolute;
+    /* margin-right: 70px; */
+    visibility: hidden;
+    font-size: 10px;
+    padding:1px 5px;
+    text-align: center;
+    transform:translateX(-50%);
+    box-shadow: 0px 0px 1px 0.5px ; 
+}
+.search-icon:hover .tooltip,.cart-icon:hover .tooltip{
+    visibility: visible;
+    opacity:1;
 }
 .cart-icon{
     position:relative;
@@ -51,6 +68,7 @@
     background-color: #1f1f1f;
     color:#AAB0AA;
 }
+
  .bi-x-lg{
     position:absolute;
     top:50px;
@@ -82,7 +100,7 @@
 .suggestions .list-group li a:hover{
     color:red;
 } 
-.message{
+/* .message{
     position:absolute;
     right:10px;
     margin-right: 0px;
@@ -90,28 +108,52 @@
     width:max-content;
     height:max-content;
     padding:5px;
-}
-.message span{
-    position:absolute;
-    right:2px;
-    top:0px;
-}
-.message p{
-    margin-top: -20px;
-} 
-.message button{
-    background-color: transparent;
+} */
+
+.icon-tooltip{
+    visibility: hidden;
+    border:1px solid #B1B5C8;
+    border-radius: 2px;
+    width:200px;
+    height:150px; 
+    padding:5px;
     color:#B1B5C8;
-    width:max-content;
-    padding: 3px;
+    background-color: #1f1f1f;
+    position: absolute;
+    right:10px;
+    font-size: 11px;
+    box-shadow: 0px 0px 1px 0.5px ;
 }
+.icon-tooltip p{
+    margin-bottom: 2px;
+}
+.icon-tooltip .hr-line{
+    margin:8px 0px;
+}  
+
+.icon-tooltip .login-btn{
+    background-color: transparent;
+    color:#B1B5C8
+}
+.icon-tooltip .closemessage{
+    position: absolute;
+    right:10px;
+    top:0px;
+    cursor: pointer;
+}
+.profile-icon:hover .icon-tooltip{
+    visibility: visible;
+    opacity:10;
+} 
 .login-form{
     position:relative;
-    margin:30px auto;
+    
     border:1px solid #B1B5C8;
     width:320px;
     height:max-content;
     padding: 15px;
+    backdrop-filter: blur(5px);
+    
 }
 .login-form span{
     position: absolute;

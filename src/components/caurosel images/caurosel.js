@@ -26,7 +26,7 @@ const Carousel =()=>{
                                                 <p className='discount'><i className="bi bi-currency-rupee"></i>{img.finalPrice}</p>
                                                 <p className='actual'><strike><i className="bi bi-currency-rupee"></i>{img.originalPrice}</strike></p>                                                </div>
                                             <div className='shop-now-btn'>
-                                                <Link to={`/product-details/${img.id}`}><button>shopnow</button></Link>                                                </div>
+                                                <Link to={`/product-details/${img.id}`}><button>shop now</button></Link>                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -39,19 +39,19 @@ const Carousel =()=>{
                             </div>
                         ))}
                 </div>
-            <button className="carousel-control-prev" type="button" 
-            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden"></span>
-            </button>
-            <button className="carousel-control-next" type="button" 
-            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="vnameisually-hidden"></span>
+              
+            <button id="carousel-control-prev" className='carousel-control-prev' type="button"
+                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span className='carousel-control-prev-icon' aria-hidden="true"></span>
+                <span className='visually-hidden'>Previous</span>
             </button>
             
-            </div>
-        
+            <button id="carousel-control-next" className='carousel-control-next' type="button"
+                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span className='carousel-control-next-icon' aria-hidden="true"></span>
+                <span className='visually-hidden'>Next</span>
+            </button>
+        </div>
         );
     };        
             

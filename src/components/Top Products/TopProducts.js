@@ -78,7 +78,7 @@ export const ProductCards=({products})=>{
 
 export const BrowseProductCard=()=>{
     return(
-        <div className="card browse-card" style={{width: "17rm"}}>
+        <div className="card browse-card" style={{width: "15rem"}}>
             <div className="browse">
                 <p>Browse All Products</p>
                 <Link to='/all-products' style={{textDecoration:'none'}}><p><i className="bi bi-arrow-right"></i></p></Link>

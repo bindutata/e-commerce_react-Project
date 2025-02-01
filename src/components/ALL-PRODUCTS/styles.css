@@ -29,6 +29,7 @@
     width:300px;
     padding: 20px;
     height:auto;
+    margin-left: 60px;
 }    
 .sort h6{
     margin-bottom: 3px;
@@ -59,4 +60,7 @@ label{
     border-radius: 5px;
     margin-bottom: 20px;
     font-size: 13px;
+}
+.various-products{
+    margin-left:80px;
 }

@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import {Link} from 'react-router-dom';
 import '../Home/styles.css';
-import { DisplayMessage } from './Account';
+import {Loginform} from './Account';
 import { topProductsData } from '../Top Products/products data';
 import {useSelector} from 'react-redux';
 
@@ -11,12 +11,30 @@ const Navbar = () => {
     const[showMessage,setshowMessage]=useState(false);
     const [searchvalue,setSearchValue]=useState('');
     const [filteredProducts,setFilteredProducts]=useState([]);
+    // const [message,setMessage]=useState(true);
+    const [loginform,setLoginform]=useState(false);
+
+    const closeMessage=()=>{
+        setshowMessage(!showMessage);
+    }
+    const displayLoginForm = ()=>{
+        setLoginform(true);
+        
+    }
+    const closeLoginform=()=>{
+        setLoginform(false)
+    }
 
     const handleSearchBar=() => {
         showsearchbar(!searchbar);
     }
-    const handleMessage=()=>{
+    const handleMouseOver=()=>{
         setshowMessage(true)
+    }
+    const handleMouseLeave=()=>{
+        setTimeout(()=>{
+            setshowMessage(false)
+        },30000)
     }
     const handleInput=(e)=>{
         let inputValue=e.target.value;
@@ -38,6 +56,8 @@ const Navbar = () => {
         setFilteredProducts([]);
         showsearchbar(false);
     };
+
+    // document.addEventListener('click',()=>showsearchbar(false));
     
     const cart_Items=useSelector((state)=>state.productReducer.cartItems || []);
 
@@ -48,13 +68,33 @@ const Navbar = () => {
             <div className='container-fluid d-flex'>
                 <h2 className='logo mt-2'>Tech-Shop</h2>
                 <div className='icons d-flex'>
-                    <i className="bi bi-search" title="search" onClick={handleSearchBar} ></i>
-                    <div className='cart-icon'>
-                        <Link to='/cart-page'><i className="bi bi-cart" title="AddToCart"></i>
-                        <span className='cart-count'>{totalCartItems}</span></Link>
+                    <div className='search-icon'>
+                        <i className="bi bi-search"  onClick={handleSearchBar} ></i>
+                        <span className='tooltip'>search</span>
                     </div>
-                    <i className="bi bi-person" onClick={handleMessage} 
-                    ></i>
+                    <div className='cart-icon'>
+                        <Link to='/cart-page'><i className="bi bi-cart" ></i>
+                        <span className='cart-count'>{totalCartItems}</span></Link>
+                        <span className='tooltip'>AddToCart</span>
+                    </div>
+                    <div className='profile-icon'>
+                        <i className="bi bi-person" ></i>
+                        
+                            <div className='icon-tooltip'  >
+                                <span className='closemessage' onClick={closeMessage}>&times;</span> 
+                                <p>Hello !!</p>
+                                <p>Access account and manage your orders</p>
+                                <button className='login-btn' onClick={displayLoginForm}>Login/SignUp</button>
+                                <hr className='hr-line'></hr>
+                                <p>Please Login.</p>
+                            </div> 
+                        
+                        {/* <span className='icon-tooltip'><h3>Hello !!</h3>
+                                <p>Access account and manage your orders</p>
+                                <button className='btn btn-light bg-transparent' onClick={displayLoginForm}>Login/SignUp</button>
+                                <hr></hr>
+                                <p>Please Login.</p></span> */}
+                    </div>
                 </div>
             </div> 
             {searchbar && (
@@ -88,7 +128,7 @@ const Navbar = () => {
                     </div>
                 </div>
             )}
-            {showMessage && (<DisplayMessage/>)}
+            {loginform && (<Loginform closeLoginform={closeLoginform}/>)} 
         
         </>
     )

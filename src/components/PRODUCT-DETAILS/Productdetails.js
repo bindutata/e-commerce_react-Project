@@ -63,7 +63,7 @@ const ProductDetails=()=>{
                                 {productRatings(selectedProduct.rateCount)}
                                 <p>| {selectedProduct.ratings} ratings</p>
                             </div>
-                            <hr></hr>
+                            <hr className="line"></hr>
                             <div className="price">
                                 <p className='discount'><i className="bi bi-currency-rupee"></i>{selectedProduct.finalPrice}</p>
                                 <p className='actual'><strike><i className="bi bi-currency-rupee"></i>{selectedProduct.originalPrice}</strike></p>

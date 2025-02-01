@@ -18,7 +18,7 @@ const Cart=()=>{
                 dispatch(removeFromCart(id));
                 return prevQuantity;
             };
-            return {...prevQuantity,[id]:decreaseQuantity,};
+            return {...prevQuantity,[id]:decreaseQuantity};
             });
     };
     const handleIncrement=(id)=>{
@@ -30,6 +30,7 @@ const Cart=()=>{
     const cart_Items=useSelector((state)=>state.productReducer.cartItems || []);
     console.log('cartitems:',cart_Items);
     console.log('cartitemsafter:',Array.isArray(cart_Items));
+
     const totalCartPrice=cart_Items.reduce((prevPrice,currentItem)=>{
         const itemQuantity=quantity[currentItem.id] || 1;
         return prevPrice+(currentItem.finalPrice || 0)*itemQuantity;
@@ -62,7 +63,6 @@ const Cart=()=>{
                                     </div>
                                     <div className='about-img'>
                                         <pre>{item.title} {item.info} </pre>
-                                        
                                         <div className='price'>
                                             <p className='discount'><i class="bi bi-currency-rupee"></i>{item.finalPrice}</p>
                                             <p className='actual'><strike><i class="bi bi-currency-rupee"></i>{item.originalPrice}</strike></p>

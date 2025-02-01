@@ -5,10 +5,10 @@ export const topProductsData=[
             tagline: "Keep the noise out, or in. You choose.",
             image: "../images/products/jbl660nc-1 (2).png",
             images: [
-                "../images/products/jbl660nc-1.png",
-                "../images/products/jbl660nc-2.png",
-                "../images/products/jbl660nc-3.png",
-                "../images/products/jbl660nc-4.png",
+                "../images/products/jbl660nc-1 (2).png",
+                "../images/products/jbl660nc-2 (1).png",
+                "../images/products/jbl660nc-3 (1).png",
+                "../images/products/jbl660nc-4 (1).png",
             ],
             brand: "JBL",
             title: "JBL Live 660NC",
@@ -28,7 +28,7 @@ export const topProductsData=[
             tag: "featured-product",
             image:"../images/products/boat518-1 (1).png",
             images: [
-                "../images/products/boat518-1.png",
+                "../images/products/boat518-1 (1).png",
                 "../images/products/boat518-2.png",
                 "../images/products/boat518-3.png",
                 "../images/products/boat518-4.png"
@@ -52,7 +52,7 @@ export const topProductsData=[
             tagline: "Featherweight for comfort all-day.",
             image: "../images/products/boat131-3.png",
             images: [
-                "../images/products/boat131-1.png",
+                "../images/products/boat131-1 (1).png",
                 "../images/products/boat131-2.png",
                 "../images/products/boat131-3.png",
                 "../images/products/boat131-4.png",
@@ -74,7 +74,7 @@ export const topProductsData=[
             id: 4,
             image:"../images/products/boat110-1 (1).png",
             images: [
-                "../images/products/boat110-1.png",
+                "../imagesproductsboat110-1 (1).png",
                 "../images/products/boat110-2.png",
                 "../images/products/boat110-3.png",
                 "../images/products/boat110-4.png",
@@ -96,7 +96,7 @@ export const topProductsData=[
             id: 5,
             image:"../images/products/boat410-1 (1).png",
             images: [
-                "../images/products/boat410-1.png",
+                "../images/products/boat410-1 (1).png",
                 "../images/products/boat410-2.png",
                 "../images/products/boat410-3.png",
                 "../images/products/boat410-4.png",
@@ -118,7 +118,7 @@ export const topProductsData=[
             id: 6,
             image:"../images/products/jbl200bt-1 (1).png",
             images: [
-                "../images/products/jbl200bt-1.png",
+                "../images/products/jbl200bt-1 (1).png",
                 "../images/products/jbl200bt-2.png",
                 "../images/products/jbl200bt-3.png",
                 "../images/products/jbl200bt-4.png",
@@ -142,7 +142,7 @@ export const topProductsData=[
             tagline: "Give your favourite music a boost.",
             image: "../images/products/sonyxb910n-1 (1).png",
             images: [
-                "../images/products/sonyxb910n-1.png",
+                "../images/products/sonyXb910n-1 (1).png",
                 "../images/products/sonyxb910n-2.png",
                 "../images/products/sonyxb910n-3.png",
                 "../images/products/sonyxb910n-4.png",
@@ -165,7 +165,7 @@ export const topProductsData=[
             tag: "featured-product",
             image:"../images/products/jbl760nc-1 (1).png",
             images: [
-                "../images/products/jbl760nc-1.png",
+                "../images/products/jbl760nc-1 (1).png",
                 "../images/products/jbl760nc-2.png",
                 "../images/products/jbl760nc-3.png",
                 "../images/products/jbl760nc-4.png",
@@ -188,7 +188,7 @@ export const topProductsData=[
             tag: "featured-product",
             image:"../images/products/boat255r-1 (1).png",
             images: [
-                "../images/products/boat255r-1.png",
+                "../images/products/boat255r-1 (1).png",
                 "../images/products/boat255r-2.png",
                 "../images/products/boat255r-3.png",
                 "../images/products/boat255r-4.png",
@@ -210,7 +210,7 @@ export const topProductsData=[
             id: 10,
             image:"../images/products/jbl100-1 (1).png",
             images: [
-                "../images/products/jbl100-1.png",
+                "../images/products/jbl100-1 (1).png",
                 "../images/products/jbl100-2.png",
                 "../images/products/jbl100-3.png",
                 "../images/products/jbl100-4.png",
@@ -232,7 +232,7 @@ export const topProductsData=[
             id: 11,
             image:"../images/products/sony1000xm4-1 (1).png",
             images: [
-                "../images/products/sony1000xm4-1.png",
+                "../images/products/sony1000xm4-1 (1).png",
                 "../images/products/sony1000xm4-2.png",
                 "../images/products/sony1000xm4-3.png",
                 "../images/products/sony1000xm4-4.png"
@@ -277,7 +277,7 @@ export const topProductsData=[
             tag: "featured-product",
             image:"../images/products/jbl-endu-1 (1).png",
             images: [
-                "../images/products/jbl-endu-1.png",
+                "../images/products/jbl-endu-1 (1).png",
                 "../images/products/jbl-endu-2.png",
                 "../images/products/jbl-endu-3.png",
                 "../images/products/jbl-endu-4.png",
@@ -300,7 +300,7 @@ export const topProductsData=[
             tag: "featured-product",
             image:"../images/products/boat203-1 (1).png",
             images: [
-                "../images/products/boat203-1.png",
+                "../images/products/boat203-1 (1).png",
                 "../images/products/boat203-2.png",
                 "../images/products/boat203-3.png",
                 "../images/products/boat203-4.png",
