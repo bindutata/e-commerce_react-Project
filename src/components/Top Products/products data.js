@@ -143,9 +143,9 @@ export const topProductsData=[
             image: "../images/products/sonyxb910n-1 (1).png",
             images: [
                 "../images/products/sonyXb910n-1 (1).png",
-                "../images/products/sonyxb910n-2.png",
-                "../images/products/sonyxb910n-3.png",
-                "../images/products/sonyxb910n-4.png",
+                "../images/products/sonyXb910n-2.png",
+                "../images/products/sonyXb910n-3.png",
+                "../images/products/sonyXb910n-4.png",
             ],
             brand: "Sony",
             title: "Sony WH-XB910N",
@@ -408,9 +408,9 @@ export const topProductsData=[
         },
         {
             id: 19,
-            image:"../images/products/sonyxb400-1.png",
+            image:"../images/products/sonyXb400-1.png",
             images: [
-                "../images/products/sonyxb400-1.png",
+                "../images/products/sonyXb400-1.png",
                 "../images/products/sonyxb400-2.png",
                 "../images/products/sonyxb400-3.png",
                 "../images/products/sonyxb400-4.png",
