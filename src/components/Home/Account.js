@@ -11,8 +11,8 @@ export const Loginform = ({closeLoginform}) =>{
                 <span className='closemessage' onClick={closeLoginform}>&times;</span> 
                 <div className='form'>
                     <form>
-                        <h4>Login</h4>
-                        <p>New to Tech-Shop?Create an account</p>
+                        <h4 style={{marginTop:'0px'}}>Login</h4>
+                        <p style={{fontSize:'12px'}}>New to Tech-Shop?Create an account</p>
                         <input className='form-control mb-2 bg-transparent' type='text' placeholder='Email'/>
                         <input className='form-control mb-2 bg-transparent' type='password' placeholder='Password'/>
                         <button className='btn-login-btn'>Login</button>

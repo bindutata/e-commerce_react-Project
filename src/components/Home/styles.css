@@ -147,9 +147,8 @@
 } 
 .login-form{
     position:relative;
-    
-    border:1px solid #B1B5C8;
-    width:320px;
+     border:1px solid #B1B5C8; 
+    width:280px;
     height:max-content;
     padding: 15px;
     backdrop-filter: blur(5px);
@@ -166,7 +165,7 @@
 
 .btn-login-btn{
     height:31px;
-    width:285px;
+    width:100%;
     margin-top: 15px;
     margin-bottom: 20px;
     background-color: red;
@@ -210,11 +209,11 @@ button{
 }
 .fb{
     background-color: #6CA0DC;
-    margin-right: 10px;
+    margin-right: 12px;
 }
 .google{
     background-color:#D0213D;
-    margin-right: 10px;
+    margin-right: 12px;
 }
 .twit{
     background-color:#007FFF;

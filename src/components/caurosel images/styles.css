@@ -3,6 +3,7 @@
 }
 #carouselExampleAutoplaying .row{
     margin-top: 100px;
+    
 } 
 #carouselExampleAutoplaying .carousel-inner{
     height:500px;
@@ -16,6 +17,7 @@
     z-index: 1;
     margin-left: 75px;
     top:-90px;
+    
     position:relative;
     
 }
@@ -25,10 +27,12 @@
     top:70px;
     left:160px;
     display:flex;
+    
     gap:200px;
 }
 #carouselExampleAutoplaying .desc p{
     font-size:18px ;
+    
 }
 #carouselExampleAutoplaying .desc pre{
     font-size: 28px;
@@ -41,7 +45,9 @@
     color:#B1B5C8;
     display:flex;
     gap:20px;
-    align-items: center;
+    
+    justify-content: flex-start;
+    align-content: flex-start;
     font-weight: bold;
     
     margin-bottom: 8px;
