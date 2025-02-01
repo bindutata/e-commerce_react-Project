@@ -24,7 +24,7 @@ const Footer=()=>{
             </div>
             <hr/>
             <div className="copy-rights">
-                <p>2024 All Rights Reserved.Built by Bindu</p>
+                <p>{new Date().getFullYear()} All Rights Reserved.Built by Bindu</p>
                 <div className="social-icons">
                     <i class="bi bi-facebook"></i>
                     <i class="bi bi-twitter"></i>
