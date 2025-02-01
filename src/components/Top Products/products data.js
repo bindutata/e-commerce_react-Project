@@ -320,7 +320,7 @@ export const topProductsData=[
         },
         {
             id: 15,
-            image:"../images/products/sonych710n-1.png",
+            image:"../images/products/sonyCh710n-1.png",
             images: [
                 "../images/products/sonych710n-1.png",
                 "../images/products/sonych710n-2.png",

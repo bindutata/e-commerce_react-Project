@@ -51,9 +51,9 @@ export const cauroselImages=[
         id: 3,
         tag: "hero-product",
         tagline: "Give your favourite music a boost.",
-        image: "../images/products/sonyxb910n-1 (1).png",
+        image: "/images/products/sonyXb910n-1 (1).png",
         images: [
-            "../images/products/sonyxb910n-1.png",
+            "/images/products/sonyXb910n-1 (1).png",
             "../images/products/sonyxb910n-2.png",
             "../images/products/sonyxb910n-3.png",
             "../images/products/sonyxb910n-4.png",

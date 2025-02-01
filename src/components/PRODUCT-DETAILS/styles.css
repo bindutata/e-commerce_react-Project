@@ -57,6 +57,7 @@
     display: flex;
     gap: 5px;
     align-items: center;
+    text-align: left;
     font-weight: bold;
     margin-top: 25px;
     
