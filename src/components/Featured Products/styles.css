@@ -60,7 +60,7 @@ height: 300px;
     font-weight: bold;
     /* margin-top: -10px;
     margin-bottom: 8px; */
-    justify-content: center;
+    justify-self: center;
 }
 .price .discount{
     font-size: 15px;
