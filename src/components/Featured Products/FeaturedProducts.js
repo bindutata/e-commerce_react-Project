@@ -38,7 +38,7 @@ const FeaturedProducts=()=>{
           return (<div className='image' key={pdt.id}>
                     <h5>{pdt.title}</h5> 
                     <Link to={`/product-details/${pdt.id}`}><img src={pdt.image} alt={pdt.title}/></Link> 
-                    <div className='price'>
+                    <div className='pdt-price'>
                         <p className='discount'><i className="bi bi-currency-rupee"></i>{pdt.finalPrice}</p>
                         <p className='actual'><strike><i className="bi bi-currency-rupee"></i>{pdt.originalPrice}</strike></p>
                     </div>
